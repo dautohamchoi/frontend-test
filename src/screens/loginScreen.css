@@ -1,0 +1,72 @@
+/* Login Screen */
+.login-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #dfdfdf;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 4rem;
+  }
+  .login-form-content {
+    padding: 0;
+    margin: 0;
+  }
+  .login-form-content li {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 1rem 0;
+    width: 40rem;
+  }
+  .login-form-content .form-control {
+    padding: 1rem;
+    outline-color: #1e90ff;
+  }
+  .login-form-content button {
+    padding: 1.6rem;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    border-radius: .5rem;
+  }
+  .login-button {
+    background-color: #1e90ff;
+  }
+  .login-button-fb {
+    background-color: #3742fa;
+  }
+  .login-form-content .link {
+    text-decoration: none;
+    color: inherit;
+  }
+  .link.whiteColor {
+    color: #fff;
+  }
+  .link.blueColor {
+    color: #3742fa;
+  }
+  .login-form-content li>p {
+    text-align: center;
+    margin: 0;
+  }
+  .login-forgot-password {
+    display: flex;
+    justify-content: space-between;
+  }
+  .login-forgot-password span {
+    font-size: 1.4rem;
+    color: #5a5656;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .login-form-content li {
+      width: 95%;
+    }
+  }
